@@ -49,7 +49,7 @@ public class AllConfig {
 
 
     //额外类型消息
-    public static final FunctionConfig open_history_today = new FunctionConfig(true,"#FF7F00"); //是否开启历史上的今天
+    public static final FunctionConfig open_history_today = new FunctionConfig(false,"#FF7F00"); //是否开启历史上的今天
     public static final FunctionConfig open_qinghua = new FunctionConfig(true,"#FF7F00"); //是否开启情话一句
     public static final FunctionConfig open_dongman = new FunctionConfig(false,"#FF7F00"); //是否开启动漫台词
     public static final FunctionConfig open_tiangou = new FunctionConfig(false,"#FF7F00"); //是否开启舔狗日记
