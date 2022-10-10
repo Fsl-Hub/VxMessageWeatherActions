@@ -37,12 +37,12 @@ public class AllConfig {
     public static final FunctionConfig open_birthDay = new FunctionConfig(true,"#FFCCCC"); //是否开启日期计算
     public static final FunctionConfig open_weather = new FunctionConfig(true,"#33A1C9"); //是否开启天气预报
     public static final FunctionConfig open_other_info= new FunctionConfig(true,"#DC143C"); //是否开启额外信息（需要开启日期计算或天气预报）
-    public static final String info_birthday = "生日快乐！！！"; //第一个日期倒计时到0天的时候展示的额外信息
-    public static final String info_birthday2 = "周年快乐！！！"; //第三个日期倒计时到0天的时候展示的额外信息
+    public static final String info_birthday = "臭丫头，生日快乐鸭！！！"; //第一个日期倒计时到0天的时候展示的额外信息
+    public static final String info_birthday2 = "一周年快乐鸭，我们要一直一直在一起~"; //第三个日期倒计时到0天的时候展示的额外信息
     public static final String info_weather_rain = "出门记得带伞哦~"; //天气预报有雨的时候展示的额外信息
-    public static final String info_weather_temperature_0 = "温度过低，加厚加厚！！！"; //温度≤0的时候展示的额外信息
-    public static final String info_weather_temperature_10 = "温度很低，多穿点衣服哦！"; //温度≤10的时候展示的额外信息
-    public static final String info_weather_temperature_20 = "温度有点低，注意别着凉啦~"; //温度≤20的时候展示的额外信息
+    public static final String info_weather_temperature_0 = "温度特别低，臭丫头要多穿衣服，穿厚厚的明白啦嘛！！！"; //温度≤0的时候展示的额外信息
+    public static final String info_weather_temperature_10 = "温度较低，臭丫头记得添外套哦~"; //温度≤10的时候展示的额外信息
+    public static final String info_weather_temperature_20 = "温度有点低，要温度不要风度~"; //温度≤20的时候展示的额外信息
     public static final String info_weather_prefix_day = "白天"; //白天天气的前缀，比如温度≤0的时候就会展示为： 白天温度过低，加厚加厚！！！
     public static final String info_weather_prefix_night = "晚上"; //晚上天气的前缀
     public static final String info_weather_prefix_now = "现在"; //现在天气的前缀
@@ -51,15 +51,15 @@ public class AllConfig {
     //额外类型消息
     public static final FunctionConfig open_history_today = new FunctionConfig(true,"#FF7F00"); //是否开启历史上的今天
     public static final FunctionConfig open_qinghua = new FunctionConfig(true,"#FF7F00"); //是否开启情话一句
-    public static final FunctionConfig open_dongman = new FunctionConfig(true,"#FF7F00"); //是否开启动漫台词
-    public static final FunctionConfig open_tiangou = new FunctionConfig(true,"#FF7F00"); //是否开启舔狗日记
-    public static final FunctionConfig open_world_read = new FunctionConfig(true,"#FF7F00"); //是否开启世界新闻
-    public static final FunctionConfig open_random_read = new FunctionConfig(true,"#FF7F00"); //是否开启随机短句
-    public static final FunctionConfig open_wozairenjian = new FunctionConfig(true,"#FF7F00"); //是否开启散文集我在人间凑日子
-    public static final FunctionConfig open_poetry = new FunctionConfig(true,"#FF7F00"); //是否开启随机诗句
+    public static final FunctionConfig open_dongman = new FunctionConfig(false,"#FF7F00"); //是否开启动漫台词
+    public static final FunctionConfig open_tiangou = new FunctionConfig(false,"#FF7F00"); //是否开启舔狗日记
+    public static final FunctionConfig open_world_read = new FunctionConfig(false,"#FF7F00"); //是否开启世界新闻
+    public static final FunctionConfig open_random_read = new FunctionConfig(false,"#FF7F00"); //是否开启随机短句
+    public static final FunctionConfig open_wozairenjian = new FunctionConfig(false,"#FF7F00"); //是否开启散文集我在人间凑日子
+    public static final FunctionConfig open_poetry = new FunctionConfig(false,"#FF7F00"); //是否开启随机诗句
     public static final FunctionConfig open_english = new FunctionConfig(true,"#FF7F00"); //是否开启每日英语
-    public static final FunctionConfig open_miyu = new FunctionConfig(true,"#FF7F00"); //是否开启谜语
-    public static final FunctionConfig open_horoscope= new FunctionConfig(true,"#FF7F00"); //是否开启星座解析(只计算第一个birthDay的星座)
+    public static final FunctionConfig open_miyu = new FunctionConfig(false,"#FF7F00"); //是否开启谜语
+    public static final FunctionConfig open_horoscope= new FunctionConfig(false,"#FF7F00"); //是否开启星座解析(只计算第一个birthDay的星座)
     public static final FunctionConfig random_module = new FunctionConfig(true,"#FF7F00"); //随机一个开启了的额外类型消息(开启以后，只会推送随机的)
 
     private static void init(){
