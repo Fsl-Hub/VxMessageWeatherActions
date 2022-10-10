@@ -86,7 +86,7 @@ public class AllConfig {
                 "封先生", //咋称呼这个人
                 "北京市昌平区上奥世纪中心", //这个人的详细地址
                 "北京", //这个人在的城市
-                new BirthDay(1997,11,13,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
+                new BirthDay(1997,11,13,false,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
                 new BirthDay(1998,3,1,false,false),
                 new BirthDay(2022,10,17,false,false),
                 new BirthDay(2021,10,17,false,true)
