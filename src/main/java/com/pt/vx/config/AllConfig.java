@@ -74,7 +74,7 @@ public class AllConfig {
                 "亲爱的臭丫头", //咋称呼这个人
                 "河南省新乡市原阳县祝楼乡平原新区", //这个人的详细地址
                 "新乡", //这个人在的城市
-                new BirthDay(1997,11,13,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
+                new BirthDay(1997,11,13,false,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
                 new BirthDay(1998,3,1,false,false),
                 new BirthDay(2022,10,17,false,false),
                 new BirthDay(2021,10,17,false,true)
