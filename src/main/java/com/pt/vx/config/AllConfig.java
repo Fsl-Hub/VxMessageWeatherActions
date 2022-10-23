@@ -82,7 +82,7 @@ public class AllConfig {
 
         userList.add(getUser(
                 "o7s5v59UprE9p6K2WSDjXYtKx0uU", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "kbO_XqsTmy6G2EbLdaMfj4xjFycZfPO8pCRJ1ufYb3Y", //要给这个人发送的模板ID
+                "ehcxVucjqg9kYDHJ0aTMCSgUa8iD1hYdZckrmrKlTk8", //要给这个人发送的模板ID
                 "封先生", //咋称呼这个人
                 "北京市昌平区上奥世纪中心", //这个人的详细地址
                 "北京", //这个人在的城市
